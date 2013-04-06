@@ -1,0 +1,306 @@
+### LICENSE:
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+### LANGUAGE STRING RESOURCE FILE
+#
+#   Language  : English
+#   By        : amarullz
+#
+
+#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Далее >
+text_back=< Назад
+text_yes=Да
+text_no=Нет
+text_about=About
+text_calibrating=Калибровка
+text_quit=Покинуть установку
+text_quit_msg=Вы действительно хотите покинуть установку?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=for
+
+langtest.title=Тестирование языков
+langtest.multiline=Этот текст расположен в langs/ru.lang\
+Используйте обратный слэш перед переходом на новую строку\
+\
+Вы также можете использовать <b>форматирование</b> внутри языковых ресурсов.\
+\
+Спасибо за использование AROMA Installer
+
+#-- End of string without any backslash for multiline text
+
+
+themes.title=Выберите тему
+themes.desc=Пожалуйста выберите тему которую вы хотите использовать в этом установочном тесте:
+
+welcome.title=Добро пожаловать
+welcome.text1=Вы собираетесь установить OpenSense ROM для hTC Sensation/XE/4G
+welcome.text2=Основана на Android 4.1.1 JellyBean
+welcome.text3=Sense 4.5 и Beats Audio технология
+welcome.text4=Быстрая стабильная прошивка для
+welcome.text5=hTC Sensation/XE/4G
+welcome.version=ВЕРСИЯ
+welcome.codename=КОДОВОЕ ИМЯ
+welcome.updated=ОБНОВЛЕНО
+welcome.next=Нажмите Далее для продолжения установки...
+
+terms.title=Условия
+terms.desc=Пожалуйста внимательно прочитайте условия использования OpenSense ROM.
+terms.check=Я согласен с правилами использования...
+terms.confirm=Пожалуйста ознакомьтесь с соглашением...
+
+changelog.title=Изменения
+changelog.desc=Изменения в OpenSense
+
+wipe.title=Режим очистки данных
+wipe.desc=Выберите режим очистки данных
+
+supwipe.title=Полная очистка (Рекомендуется)
+supwipe.desc=Выполнить полную очистку данных\
+Будут удалены все данные
+normalwipe.title=Обычный вайп
+normalwipe.desc=Данные останутся
+update.title=Обновление
+update.desc=Будет произведено обновление
+
+mainmods.title=Основные модификации
+mainmods.desc=Выберите основные модификации
+model.title=Модель устройства
+sensation.desc=Для Sensation пользователей (Не XE)
+sensationxe.desc=Для Sensation XE пользователей
+sensationorange.desc=Для Sensation Orange UK пользователей
+sensationxeorange.desc=Для Sensation XE Orange UK пользователей
+sensation4g.desc=Для Sensation 4G пользователей
+kernel.title=Ядра
+bricked.title=Ядро Bricked 1.4
+bricked.desc=Установить ядро Bricked 
+sebastian.title=Ядро SebastianFM 1.5.2
+sebastian.desc=Установить ядро SebastianFM
+faux.title=Ядро Faux 10b10
+faux.desc=Установить ядро Faux
+pyd.title=Ядро PYD-X 4.1.9
+pyd.desc=Установить ядро PYD-X 
+batt.title=Модификации батаери
+battpercent.title=Sense и Проценты
+battpercent.desc=Установить оригинальную батарею с процентами
+stockbatt.title=Обычная батарея
+stockbatt.desc=Установить стандартную батарею
+rosie.title=Модификация Rosie
+rotation.title=Ландшафтный режим
+rotation.desc=Установить Rosie с ландшафтным режимом
+stockrosie.title=Простой режим
+stockrosie.desc=Установить Rosie без ландшафта
+keyboard.title=Модификация клавиатуры
+noarrows.title=Без стрелок
+noarrows.desc=Удалить стрелки с клавиатуры
+arrows.title=Клавиатура со стрелками
+arrows.desc=Использовать клавиатуру со стрелками
+xloud.title=Xloud
+enablexloud.title=Активировать Xloud
+enablexloud.desc=Будет установлен Xloud мод
+disxloud.title=Отключить Xloud
+disxloud.desc=Отключает Xloud мод
+jellybean.title=JellyBean анимация
+enjb.title=Использовать JellyBean анимацию
+enjb.desc=Установить мод анимации
+disjb.title=Не использовать JellyBean анимацию
+disjb.desc=Не устанавливать мод анимации
+gnow.title=Google Now 
+flgnow.title=Google Now
+flgnow.desc=Установить Google Now
+dgnow.title=Не использовать Google Now 
+dgnow.desc=Не устанавливать Google now
+gps.title=Настройки GPS
+gps.desc=Пожалуйста выберите ваш регион
+removeapp.title=Удалить приложения от HTC
+removeapp.desc=Выберите что вы хотите удалить
+sweep2wake.title=Хотите установить Sweep2wake?
+sweep2wake.desc=Пожалуйста выберите
+yes.title=Да
+yescapt.title=Да (без подсветки кнопок)
+no.title=Нет
+3dgpu.title=Разгон 3DGPU
+3dgpu.desc=Пожалуйста выберите
+3DGPUdis.title=Разгон 3DGPU отключен
+3DGPUlow.title=Слабый разгон 3DGPU
+3DGPUhigh.title=Высокий разгон 3DGPU
+2DGPU.title=Разгон 2DGPU
+2dgpu.desc=Пожалуйста выберите
+2dgpudis.title=Разгон 2DGPU отключен
+2dgpulow.title=Слабый разгон 2DGPU
+2dgpuhi.title=Высокий разгон 2DGPU
+gov.title=Регулировщик 
+gov.desc=Пожалуйста выберите подходящий регулировщик:
+bdass.desc=по умолчанию, сбалансирован
+ondmnd.desc=производительность по требованию
+prfmnc.desc=всегда на максимальной частоте
+bdassconf.title=Настройки режима Badass:
+bdassconf.desc=Что вы хотите?
+bdsconfprfmnc.desc=Хотите больше чем это? Вернитесь и выберите ondemand
+balanced.desc=небольшое увеличение производителности
+bteff.title=Лучшее энергосбережение
+bteff.desc=настройки badass по умолчанию(возможны тормоза)
+io.title=I/O Scheduler
+io.desc=Выберите режим I/O планировщика
+Maxfreq.title=Максимальная частота
+maxfreq.desc=Пожалуйста выберите максимальную частоту процессора:
+def.desc=по умолчанию
+careful.desc=Осторожно!
+Minfreq.title=Минимальная частота
+minfreq.desc=Пожалуйста выберите минимальную частоту:
+scroff.title=Выключенный экран
+scroff.desc=Пожалуйста выберите максимальную частоту при выключенном экране:
+undvl.title=Выберите пониженного напряжения
+undvl.desc=Пожалуйста выберите что хотите установить
+remove.title=Удалить UV
+err.title=Ошибка
+err.desc=Некоторые файлы с прошлой настройки не обнаружены\
+Выберите другой режим установки.
+installing.title=Установка
+installing.desc=Идет установка прошивки OpenSense...
+instcomplete.title=Установка завершена
+cong.text=Поздравляем
+cong.text1=Установка прошивки OpenSense прошла успешно
+cong.text2=Нажмите Finish для завершения.
+cong.text3=Наслаждайтесь
+reboot.title=Перезагрузка
+reboot.desc=Перезагрузить устройство сейчас?
+enunlockanim.title=Активировать анимацию разблокировки
+enunlockanim.desc=Активирует анимацию разблокировки Rosie
+disunlockanim.title=Отключить аниацию разблокировки
+disunlockanim.desc=Отключает анимацию разблокировки Rosie
+ADJOOMMods.title=ADJ/OOM Модификации
+opensensevalues.title=OpenSense ADJ/OOM значения
+opensensevalues.desc=Лучшая мультизадачность, меньше свободной RAM памяти
+Stockvalues.title=Стандартные значения ADJ/OOM
+stockvalues.desc=Худшая мультизадачность, больше свободной RAM памяти
+menu.title=Меню
+menu.desc=Пожалуйста выберите меню ниже чтобы начать
+Installation.title=Установка OpenSense
+installation.desc=Установка прошивки OpenSense
+sysinfo.title=Системная информация 
+sysinfo.desc=Получить и показать информацию об устройстве
+rominfo.title=Информация о прошивке 
+rominfo.desc=Показать информацию о прошивке и разработчиках
+alert.title=Завершено
+alert.text=Вы будете возвращены в главное меню
+showsysinfo.title=Системная информация
+showsysinfo.desc=Текущая системная информация.
+instnoob.title=Установка для новичков
+instnoob.desc=Режим установки с подсказками во время процесса установки(рекомендуется для новичков)
+close.text=Закрыть
+market.title=Play Маркет
+stock.title=Использовать стоковый Маркет
+stock.desc=Установить стоковый Маркет
+edit.title=Использовать модифицированный Маркет
+edit.desc=Установить Маркет отвечающий о верной лицензии
+adflplay.desc=Проигрыватель мультимедиа для просмотра файлов формата Flash
+drbox.desc=Облачное хранилище данных
+facebook.desc=Социальная сеть
+flickr.desc=Фото- и видеохостинг
+picasa.desc=Помошник в управлении веб-альбомами
+skydrive.desc=Облачное хранилище данных
+twitter.desc=Социальная сеть
+frstr.desc=Добавляет социальное объединение в Sense UI (Может вызывать проблемы с синхронизацией социальных приложений)
+gmail.desc=Почтовый клиент
+gmaps.desc=Карты
+gnews.desc=Новости и погода
+gplus.desc=Социальная сеть
+gtalk.desc=Система мгновенного обмена сообщениями
+gtts.desc=Синтезатор речи
+facelock.desc=Защита приложений с помощью вашего лица
+talkback.desc=Оповещение голосом о событиях на устройстве
+youtube.desc=Видеохостинг
+htcbrowser.desc=Интернет браузер
+htccalc.desc=Калькулятор
+htccalendar.desc=Календарь
+htccar.desc=Режим в автомобиле
+htcdock.desc=Док-режим
+htcflash.desc=Фонарик
+htcradio.desc=FM-радио
+htcgallery.desc=Галерея
+htcwallpap.desc=Живые обои
+htclocat.desc=Местоположение
+htclockskr.desc=Блокировка экрана
+htcmail.desc=Почта
+htcmessag.desc=Сообщения
+htcmovedit.desc=Видео редактор
+htcmusplay.desc=Музыкальный проигрыватель
+htcnotes.desc=Заметки
+htcsoundrec.desc=Диктофон
+htcskins.desc=Скины
+htcstocks.desc=Акции
+htctask.desc=Задачи
+htctaskman.desc=Диспетчер задач
+htcvidplay.desc=Видео плеер
+htcwatch.desc=Видеосервис
+htcweather.desc=Погода
+htcworldclock.desc=Часы
+adaway.desc=Блокировщик рекламы
+jcprint.desc=Принтер
+pdfview.desc=Программа для чтения электронных книг (Cool Reader)
+poloffice.desc=Мобильный офис
+simtk.desc=Комплект поддержки SIM-карты
+cifsman.desc=Монтирование и локальное использование сетевых ресурсов
+teeter.desc=Игра
+wifi.desc=Исправление для WiFi
+plurk.desc=Сервис микроблогинга
+smartsync.desc=Smart Sync Выключатель
+adoberead.desc=PDF Reader
+tunein.desc=Онлайн радио
+esfileman.desc=Простой файловый менеджер
+removelang.title=Удалить языки
+removelang.desc=Удалить неиспользуемые языки
+imext9-1.desc=Болгарский
+imext9-2.desc=Хорватский
+imext9-3.desc=Чешский
+imext9-4.desc=Датский
+imext9-5.desc=Голландский
+imext9-6.desc=Эстонский
+imext9-7.desc=Финский
+imext9-8.desc=Французский
+imext9-9.desc=Немецкий
+imext9-10.desc=Греческий
+imext9-11.desc=Венгерский
+imext9-12.desc=Индонезийский
+imext9-13.desc=Итальянский
+imext9-14.desc=Латвийский
+imext9-15.desc=Литовский
+imext9-16.desc=Малайзийский
+imext9-17.desc=Норвежский
+imext9-18.desc=Польский
+imext9-19.desc=Португальский
+imext9-20.desc=Румынский
+imext9-21.desc=Русский
+imext9-22.desc=Сербский
+imext9-23.desc=Словацкий
+imext9-24.desc=Словенский
+imext9-25.desc=Испанский
+imext9-26.desc=Шведский
+imext9-27.desc=Турецкий
+gps-1.desc=Азия
+gps-2.desc=Австралия
+gps-3.desc=Европа
+gps-4.desc=Северная Америка
+gps-5.desc=Океания
+gps-6.desc=Южная Африка
+gps-7.desc=Южная Америка

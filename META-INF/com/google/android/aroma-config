@@ -1,0 +1,362 @@
+# AROMA Installer - OpenSense
+#       (c) 2011 by Ahmad Amarullah
+#           amarullz - xda-developers
+#
+#       Version 2.56
+#
+theme("sense");
+ini_set("rom_name",             "OpenSense");
+ini_set("rom_version",          "05.04.2013");
+ini_set("rom_author",           "Everyone");
+ini_set("rom_device",           "HTC Sensation + XE/4G");
+ini_set("rom_date",	         	"05.04.2013");
+anisplash(
+	4,
+	"splash/a1", 500,
+	"splash/a2", 30,
+	"splash/a3", 30,
+	"splash/a4", 30,
+	"splash/a5", 30,
+	"splash/a6", 30
+);
+
+selectbox(
+	"Select Language",
+	"Please select installer language that you want to use",
+	"@default",
+
+	"lang.prop",
+
+	"English",	   "Welcome to OpenSense Installer",		   1,
+	"Russian",	   "Добро пожаловать в установщик",0
+);
+
+if prop("lang.prop","selected.0")=="1" then
+	loadlang("langs/en.lang");
+	fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+	fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+if prop("lang.prop","selected.0")=="2" then
+	loadlang("langs/ru.lang");
+	fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+	fontresload( "1", "ttf/Roboto-Regular.ttf", "18" );
+endif;
+
+viewbox(
+	"<~welcome.title> \n",
+	"<~welcome.text1> \n\n"+
+	"<~welcome.text2> \n"+
+	"<~welcome.text3> \n"+
+	"<~welcome.text4> \n"+
+	"<~welcome.text5> \n\n"+
+	"<~welcome.version>\t: <b><#selectbg_g>"+ini_get("rom_version")+"</#></b>\n"+
+	"<~welcome.updated>\t: <b><#selectbg_g>"+ini_get("rom_date")+"</#></b>\n\n\n"+
+	"<~welcome.next>",
+	"icons/info"
+);
+
+if prop("lang.prop","selected.0")=="1" then
+	agreebox(
+		"<~terms.title>",
+		"<~terms.desc>",
+		"icons/agreement",
+		readfile_aroma("agreement.txt"),
+		"<~terms.check>",
+		"<~terms.confirm>"
+	);
+endif;
+
+if prop("lang.prop","selected.0")=="2" then
+	agreebox(
+		"<~terms.title>",
+		"<~terms.desc>",
+		"icons/agreement",
+		readfile_aroma("unicode/agreement.txt"),
+		"<~terms.check>",
+		"<~terms.confirm>"
+	);
+endif;
+
+menubox(
+	"<~menu.title>",
+	"<~menu.desc>",
+	"@welcome",
+	"menu.prop",
+
+	"<~Installation.title>",	"<~installation.desc>",			"@install",		#-- selected = 1
+	"<~sysinfo.title>",			"<~sysinfo.desc>",				"@info",		#-- selected = 2
+	"<~changelog.title>",		"<~changelog.desc>",			"@update"		#-- selected = 3
+);
+
+if prop("menu.prop","selected")=="2" then
+	pleasewait("Get System Informations...");
+	setvar(
+		"sysinfo",
+		"<@center><b>Your Device System Information</b></@>\n\n"+
+
+		"Model\t\t\t: <b><#selectbg_g>"+sysprop("ro.product.model")+"</#></b>\n"+
+		"Name\t\t\t: <b><#selectbg_g>"+sysprop("ro.product.name")+"</#></b>\n"+
+		"Device Name\t\t: <b><#selectbg_g>"+sysprop("ro.product.device")+"</#></b>\n"+
+		"Board Name\t\t: <b><#selectbg_g>"+sysprop("ro.product.board")+"</#></b>\n"+
+		"Manufacturer\t\t: <b><#selectbg_g>"+sysprop("ro.product.manufacturer")+"</#></b>\n\n"+
+
+		"CPU\t\t\t: <b><#selectbg_g>"+sysprop("ro.product.cpu.abi")+"</#></b>\n"+
+		"LCD Desinty\t\t: <b><#selectbg_g>"+sysprop("ro.sf.lcd_density")+"</#></b>\n\n"+
+
+		"System Size\t\t: <b><#selectbg_g>"+getdisksize("/system","m")+" MB</#></b>\n"+
+		"\tFree\t\t: <b><#selectbg_g>"+getdiskfree("/system","m")+" MB</#></b>\n\n"+
+		"Data Size\t\t: <b><#selectbg_g>"+getdisksize("/data","m")+" MB</#></b>\n"+
+		"\tFree\t\t: <b><#selectbg_g>"+getdiskfree("/data","m")+" MB</#></b>\n\n"+
+		"(/mnt/sdcard)\t\t: <b><#selectbg_g>"+getdisksize("/mnt/sdcard","m")+" MB</#></b>\n"+
+		"\tFree\t\t: <b><#selectbg_g>"+getdiskfree("/mnt/sdcard","m")+" MB</#></b>\n\n"+
+		"SDCard Size\t\t: <b><#selectbg_g>"+getdisksize("/sdcard","m")+" MB</#></b>\n"+
+		"\tFree\t\t: <b><#selectbg_g>"+getdiskfree("/sdcard","m")+" MB</#></b>\n\n"+
+		"SD-EXT Size\t\t: <b><#selectbg_g>"+getdisksize("/sd-ext","m")+" MB</#></b>\n"+
+		"\tFree\t\t: <b><#selectbg_g>"+getdiskfree("/sd-ext","m")+" MB</#></b>\n\n"+
+
+		""
+	);
+
+	textbox(
+		"<~showsysinfo.title>",
+		"<~showsysinfo.desc>",
+		"@info",
+		getvar("sysinfo")
+	);
+
+	alert(
+		"<~alert.title>",
+		"<~alert.text>",
+		"@alert"
+	);
+	back("2");
+endif;
+
+if prop("menu.prop","selected")=="3" then
+	if prop("lang.prop","selected.0")=="1" then
+		textbox(
+			"<~changelog.title>",
+			"<~changelog.desc>",
+			"icons/info",
+			readfile_aroma("changelog.txt")
+		);
+	endif;
+
+	if prop("lang.prop","selected.0")=="2" then
+		textbox(
+			"<~changelog.title>",
+			"<~changelog.desc>",
+			"icons/info",
+			readfile_aroma("unicode/changelog.txt")
+		);
+	endif;
+	back("2");
+endif;
+
+selectbox(
+	"<~wipe.title>",
+	"<~wipe.desc>",
+	"icons/apps",
+	"wipe.prop",
+	"<~wipe.title>","",2,
+		"<~supwipe.title>",
+		"<~supwipe.desc>",0,      
+		"<~normalwipe.title>",
+		"<~normalwipe.desc>",0,
+		"<~update.title>",
+		"<~update.desc>",0
+);
+
+if prop("wipe.prop","selected.1") != "3" then
+	selectbox(
+		"<~mainmods.title>",
+		"<~mainmods.desc>",
+		"icons/apps",
+		"mods.prop",
+		"<~model.title>","",2,
+			"HTC Sensation",
+			"<~sensation.desc>",0,
+			"HTC Sensation XE",
+			"<~sensationxe.desc>",1,
+			"HTC Sensation Orange UK",
+			"<~sensationorange.desc>",0,
+			"HTC Sensation XE Orange UK",
+			"<~sensationxeorange.desc>",0,
+			"HTC Sensation 4G Tmous Support",
+			"<~sensation4g.desc>",0	
+	);
+
+	if prop("mods.prop","selected.1") != "5" then
+		selectbox(
+			"<~gps.title>",
+			"<~gps.desc>",
+			"icons/gps",
+			"gps.prop",
+
+			"<~gps-1.desc>",	    "",0,
+			"<~gps-2.desc>",	    "",0,
+			"<~gps-3.desc>",	    "",1,
+			"<~gps-4.desc>",	    "",0,
+			"<~gps-5.desc>",	    "",0,
+			"<~gps-6.desc>",	    "",0,
+			"<~gps-7.desc>",	    "",0
+		);
+	endif;
+
+	checkbox(
+		"<~removelang.title>",
+		"<~removelang.desc>",
+		"icons/personalize",
+		"removelang.prop",
+
+		"1. <~imext9-1.desc>",	   "",  0,  
+		"2. <~imext9-2.desc>",	   "",  0,  
+		"3. <~imext9-3.desc>",	   "",  0,  
+		"4. <~imext9-4.desc>",	   "",  0,  
+		"5. <~imext9-5.desc>",	   "",  0,  
+		"6. <~imext9-6.desc>",	   "",  0,  
+		"7. <~imext9-7.desc>",	   "",  0,  
+		"8. <~imext9-8.desc>",	   "",  0,  
+		"9. <~imext9-9.desc>",	   "",  0,  
+		"10. <~imext9-10.desc>",	   "",  0,  
+		"11. <~imext9-11.desc>",	   "",  0,  
+		"12. <~imext9-12.desc>",	   "",  0,  
+		"13. <~imext9-13.desc>",	   "",  0,  
+		"14. <~imext9-14.desc>",	   "",  0,  
+		"15. <~imext9-15.desc>",	   "",  0,  
+		"16. <~imext9-16.desc>",	   "",  0,  
+		"17. <~imext9-17.desc>",	   "",  0,  
+		"18. <~imext9-18.desc>",	   "",  0,  
+		"19. <~imext9-19.desc>",	   "",  0,  
+		"20. <~imext9-20.desc>",	   "",  0,  
+		"21. <~imext9-21.desc>",	   "",  0,  
+		"22. <~imext9-22.desc>",	   "",  0,  
+		"23. <~imext9-23.desc>",	   "",  0,  
+		"24. <~imext9-24.desc>",	   "",  0,  
+		"25. <~imext9-25.desc>",	   "",  0,  
+		"26. <~imext9-26.desc>",	   "",  0,  
+		"27. <~imext9-27.desc>",	   "",  0  
+	);
+
+	checkbox(
+		"<~removeapp.title>",
+		"<~removeapp.desc>",
+		"icons/personalize",
+		"remove.prop",
+
+		"Adobe Flash Player",   "<~adflplay.desc>",  0,  
+		"DropBox",              "<~drbox.desc>",  0,  
+		"Facebook",             "<~facebook.desc>",  0,
+		"Flickr",               "<~flickr.desc>",  0,
+		"Picasa",               "<~picasa.desc>",  0,  
+		"Skydrive",             "<~skydrive.desc>",  0,
+		"Twitter",              "<~twitter.desc>",  0,
+		"Friend Stream",        "<~frstr.desc>",0,
+		"Google Mail",          "<~gmail.desc>",  0,
+		"Google Maps",          "<~gmaps.desc>",  0,
+		"Google News",          "<~gnews.desc>",  0,
+		"Google Plus",          "<~gplus.desc>",  0,
+		"Google Talk",          "<~gtalk.desc>",  0,
+		"Google TTS",           "<~gtts.desc>",  0,
+		"FaceLock",             "<~facelock.desc>",  0,
+		"TalkBack",             "<~talkback.desc>",  0,  
+		"YouTube",              "<~youtube.desc>",  0,
+		"HTC Browser",          "<~htcbrowser.desc>",  0, 
+		"HTC Calculator",       "<~htccalc.desc>",  0, 
+		"HTC Calendar",         "<~htccalendar.desc>",  0, 
+		"HTC Car",              "<~htccar.desc>",  0, 
+		"HTC Dock",             "<~htcdock.desc>",  0, 
+		"HTC Flashlight",       "<~htcflash.desc>",  0,  
+		"HTC FM Radio",         "<~htcradio.desc>",  0, 
+		"HTC Gallery",          "<~htcgallery.desc>",  0,
+		"HTC Live Wallpapers",  "<~htcwallpap.desc>",  0,
+		"HTC Location",         "<~htclocat.desc>",  0,
+		"HTC LockScreens",      "<~htclockskr.desc>",  0,
+		"HTC Mail",             "<~htcmail.desc>",  0,  
+		"HTC Messages",         "<~htcmessag.desc>",  0,
+		"HTC Movie Editor",     "<~htcmovedit.desc>",  0, 
+		"HTC Music Player",     "<~htcmusplay.desc>",  0,
+		"HTC Notes",            "<~htcnotes.desc>",  0,
+		"HTC Sound Recorder",   "<~htcsoundrec.desc>",  0, 
+		"HTC Skins",            "<~htcskins.desc>",  0,
+		"HTC Stocks",           "<~htcstocks.desc>",  0,
+		"HTC Task",             "<~htctask.desc>",  0,
+		"HTC TaskManager",      "<~htctaskman.desc>",  0,
+		"HTC Video Player",     "<~htcvidplay.desc>",  0,
+		"HTC Watch",            "<~htcwatch.desc>",  0,
+		"HTC Weather",          "<~htcweather.desc>",  0,
+		"HTC WorldClock",       "<~htcworldclock.desc>",  0,
+		"AdAway",               "<~adaway.desc>",  0,
+		"JetCet Print",         "<~jcprint.desc>",  0,
+		"PDF Viewer",           "<~pdfview.desc>",  0,
+		"Polaris Office",       "<~poloffice.desc>",  0,
+		"SIM Tool Kit",         "<~simtk.desc>",  0,
+		"Cifs Manager",         "<~cifsman.desc>",  0,
+		"Teeter",   	          "<~teeter.desc>",  0,
+		"WiFi Fix",  	          "<~wifi.desc>",  0,
+		"Plurk",  	          "<~plurk.desc>",  0,
+		"SmartSyncDisabler",    "<~smartsync.desc>",  0,
+		"Adobe Reader",         "<~adoberead.desc>",  0,
+		"TuneIn Radio",         "<~tunein.desc>",  0,
+		"ES File Manager",      "<~esfileman.desc>",  0
+	);
+
+	selectbox(
+		"<~undvl.title>",
+		"<~undvl.desc>",
+		"icons/apps",
+		"uv.prop",
+
+		"<~remove.title>"," ",0,
+		"-25 mV"," ",0,
+		"-50 mV"," ",0,
+		"-9%"," ",1,
+		"-9% +"," ",0,
+		"-75 mV"," ",0,
+		"-87.5 mV"," ",0,
+		"-11%"," ",0,
+		"-100 mV"," ",0
+	);
+endif;
+
+if prop("wipe.prop","selected.1") == "3" then
+	pleasewait("Reading Configuration...");
+	setvar("rest_status", resexec("scripts/restore.sh"));
+	if (getvar("rest_status") != "0") then
+		alert(
+			"<~err.title>",
+			"<~err.desc>",
+			"@alert"
+		);
+		back("1");
+	endif;
+endif;
+
+install(
+	"<~installing.title>",
+	"<~installing.desc>",
+	"icons/install"
+);
+
+resexec("scripts/save.sh");
+ini_set("text_next", "Finish");
+
+viewbox(
+	"<~instcomplete.title>",
+	"<#080><~cong.text></#>\n\n"+
+	"<~cong.text1>\n\n"+
+	"<~cong.text2>\n\n<~cong.text3>",
+	"icons/info"
+);
+
+if confirm(
+	"<~reboot.title>",
+	"<~reboot.desc>",
+	"icons/info",
+	"Yes",
+	"No"
+)=="yes"
+then
+	reboot("onfinish");
+endif;

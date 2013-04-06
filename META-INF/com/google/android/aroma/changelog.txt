@@ -1,0 +1,2 @@
+<b><#selectbg_g>OpenSense 05.04.2013 (Full ROM)</#></b>
+<*>Initial Release from One S C2 3.19.401.101 RUU</*>

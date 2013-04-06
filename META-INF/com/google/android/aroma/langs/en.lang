@@ -1,0 +1,307 @@
+﻿### LICENSE:
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+### LANGUAGE STRING RESOURCE FILE
+#
+#   Language  : English
+#   By        : amarullz
+#
+
+#
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Next >
+text_back=< Back
+text_yes=Yes
+text_no=No
+text_about=About
+text_calibrating=Calibrating Tools
+text_quit=Quit Installation
+text_quit_msg=Are you sure to quit the installer?
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+common.for=for
+
+langtest.title=Language Test
+langtest.multiline=This text is located in langs/en.lang\
+Use backslash before enter to add new line\
+\
+You can also do <b>Formatting</b> inside the language string resource.\
+\
+Thanks for using AROMA Installer
+
+#-- End of string without any backslash for multiline text
+
+
+themes.title=Select Theme
+themes.desc=Please select installer theme that you want to use in this installation test:
+
+welcome.title=Welcome
+welcome.text1=You are about to Install OpenSense ROM for HTC Sensation/XE/4G.
+welcome.text2=Powered By Android 4.1.1 JellyBean,
+welcome.text3=Sense 4.5 and HTC Beats Audio Technology 
+welcome.text4=Powerfull, Stable and the Fastest ROM for
+welcome.text5=HTC Sensation/XE/4G.
+welcome.version=Version
+welcome.codename=Dev
+welcome.updated=Updated
+welcome.next=Press Next to Continue the Installation...
+
+terms.title=Terms Of Use
+terms.desc=Please read carefully The DarkForest ROM Terms of Use Below...
+terms.check=I Agree with this Terms of Use...
+terms.confirm=Please check the agreement...
+
+changelog.title=Changelog
+changelog.desc=OpenSense Changelog
+
+wipe.title=Select Wipe Method
+wipe.desc=Please Select Wipe Method Below:
+
+supwipe.title=Super-Wipe (Recommended)
+supwipe.desc=Execute Super-Wipe Script \
+This Will Erase ALL Data.
+normalwipe.title=Normal Wipe
+normalwipe.desc=Preserve Data.
+update.title=Update Only
+update.desc=Just updates the ROM\
+Aroma Settings are restored from a previous installation.
+
+mainmods.title=Select Main Mods
+mainmods.desc=Please Select ROM Mods Below:
+model.title=Model Support
+sensation.desc=For Sensation (NON-XE) User's.
+sensationxe.desc=For Sensation XE User's.
+sensationorange.desc=HTC Sensation Orange UK
+sensationxeorange.desc=For Sensation Orange UK User's.
+sensation4g.desc=For Sensation 4G User's.
+kernel.title=Kernel
+bricked.title=Bricked Kernel v1.4
+bricked.desc=Install Bricked kernel by show-p1984. 
+sebastian.title=SebastianFM Kernel v1.5.2
+sebastian.desc=Install SebastianFM kernel.
+faux.title=Faux Kernel XE v10b10
+faux.desc=Install Faux kernel.
+pyd.title=PYD-X Kernel 4.1.9 by XxXPatchaXxX
+pyd.desc=Install PYD-X Kernel. 
+batt.title=Battery Mods
+battpercent.title=Sense % Battery
+battpercent.desc=Use the Sense Battery with percent.
+stockbatt.title=Stock Battery
+stockbatt.desc=Use stock non percent battery.
+rosie.title=Rosie Mods
+rotation.title=Rotating Rosie
+rotation.desc=Use the rotaiting Rosie.
+stockrosie.title=Stock Rosie
+stockrosie.desc=Use stock non rotating Rosie.
+keyboard.title=Keyboard Mods
+noarrows.title=No Arrows keyboard
+noarrows.desc=Removes arrows from the keyboard.
+arrows.title=Keyboard with Arrows
+arrows.desc=Use keyboard with arrows.
+xloud.title=XLoud Mod
+enablexloud.title=Enable XLoud
+enablexloud.desc=Enables Sony XLoud
+disxloud.title=Disable XLoud
+disxloud.desc=Disables Sony XLoud
+jellybean.title=JellyBean Animations Mod
+enjb.title=Enable JellyBean Animations
+enjb.desc=Enables JellyBean Animations Mod
+disjb.title=Disable JellyBean Animations
+disjb.desc=Doesnt flash JellyBean Animations Mod
+gnow.title=Google Now Mod 
+flgnow.title=Flash Google Now
+flgnow.desc=Flashes the Google Now files
+dgnow.title=Dont Flash Google Now
+dgnow.desc=Doesnt Flash the Google Now files
+gps.title=Custom GPS Config
+gps.desc=Please choose your region:
+removeapp.title=Remove some HTC Stuff
+removeapp.desc=Check the ones you want to remove:
+sweep2wake.title=Do you want Sweep2wake?
+sweep2wake.desc=Please Select:
+yes.title=Yes
+yescapt.title=Yes (no capacitive backlight)
+no.title=No
+3dgpu.title=3DGPU Overclock
+3dgpu.desc=Please Select:
+3DGPUdis.title=3DGPU OC disabled
+3DGPUlow.title=3DGPU low overclock
+3DGPUhigh.title=3DGPU high overclock
+2DGPU.title=2DGPU Overclock
+2dgpu.desc=Please Select:
+2dgpudis.title=2DGPU OC disabled
+2dgpulow.title=2DGPU low overclock
+2dgpuhi.title=2DGPU high overclock
+gov.title=Governor
+gov.desc=Please Select your govenor:
+bdass.desc=default, balanced+gpu control
+ondmnd.desc=performance on demand
+prfmnc.desc=always clock with max frequency
+bdassconf.title=Badass configuration:
+bdassconf.desc=What is your focus?
+bdsconfprfmnc.desc=You want more than this? Go back and choose ondemand
+balanced.desc=with a slight weight on performance
+bteff.title=Battery efficient
+bteff.desc=badass @ default (may be choppy)
+io.title=I/O Scheduler
+io.desc=Select Default I/O Scheduler:
+Maxfreq.title=Maxfreq
+maxfreq.desc=Please Select your Maximum Frequency:
+def.desc=default
+careful.desc=Be careful !
+Minfreq.title=Minfreq
+minfreq.desc=Please Select your Minimum Frequency:
+scroff.title=Screen off
+scroff.desc=Please Select your Screen Off Maximum Frequency:
+undvl.title=Choose Undervoltage
+undvl.desc=Please select the one you want
+remove.title=Remove UV
+err.title=Error
+err.desc=Some files from previouse configuration are missing\
+Try a different installation type.
+installing.title=Installing
+installing.desc=Installing OpenSense...
+instcomplete.title=Installation Completed
+cong.text=Congratulations...
+cong.text1=OpenSense has been Sucessfully Installed
+cong.text2=Press Finish to conclude.
+cong.text3=Enjoy
+reboot.title=Reboot
+reboot.desc=Reboot Now?
+enunlockanim.title=Enable Unlock Animation
+enunlockanim.desc=Enables Rosie panels unlock animation.
+disunlockanim.title=Disable Unlock Animation
+disunlockanim.desc=Disables Rosie panels unlock animation.
+ADJOOMMods.title=ADJ/OOM Mods
+opensensevalues.title=OpenSense ADJ/OOM values
+opensensevalues.desc=Better multitasking, lower free RAM
+Stockvalues.title=Stock HTC ADJ/OOM values
+stockvalues.desc=Worse Multitasking, higher free RAM
+menu.title=Menu
+menu.desc=Please select menu below to start
+Installation.title=ROM Installation
+installation.desc=OpenSense ROM installation
+sysinfo.title=System info
+sysinfo.desc=Get and show device/partition informations
+rominfo.title=ROM Info
+rominfo.desc=Information about ROM and Devs
+alert.title=Finished
+alert.text=You will be back to Main Menu
+showsysinfo.title=System Information
+showsysinfo.desc=Current system information may not supported in all devices.
+instnoob.title=Installation for noobs
+instnoob.desc=Installation mode with tips during installation process (recommended for noobs)
+close.text=Close
+market.title=Play Market
+stock.title=Flash Stock Market
+stock.desc=Flashes the Stock Market files
+edit.title=Flash Mod Market
+edit.desc=Flashes the Mod Market files responsible the true license
+adflplay.desc=Media player for viewing Flash format files
+drbox.desc=File hosting service
+facebook.desc=Social networking service
+flickr.desc=Image and video hosting
+picasa.desc=Helper to manage your Picasa web albums
+skydrive.desc=File hosting service
+twitter.desc=Social networking service
+frstr.desc=Adds Social Aggregation to Sense UI. May cause sync issues with social apps
+gmail.desc=Mail client
+gmaps.desc=Maps
+gnews.desc=News and weather
+gplus.desc=Social networking service
+gtalk.desc=Instant messaging
+gtts.desc=Speech synthesizer
+facelock.desc=Protect your apps with your face
+talkback.desc=Notification of voice about the events on your device
+youtube.desc=Video hosting
+htcbrowser.desc=Internet Browser
+htccalc.desc=Calculator
+htccalendar.desc=Calendar
+htccar.desc=Car mode
+htcdock.desc=Dock mode
+htcflash.desc=Flashlight
+htcradio.desc=FM Radio
+htcgallery.desc=Gallery
+htcwallpap.desc=Live Wallpapers
+htclocat.desc=Location
+htclockskr.desc=LockScreens
+htcmail.desc=Mail
+htcmessag.desc=Messages
+htcmovedit.desc=Movie Editor
+htcmusplay.desc=Music Player
+htcnotes.desc=Notes
+htcsoundrec.desc=Sound Recorder
+htcskins.desc=Skins
+htcstocks.desc=Stocks
+htctask.desc=Task
+htctaskman.desc=TaskManager
+htcvidplay.desc=Video Player
+htcwatch.desc=Watch
+htcweather.desc=Weather
+htcworldclock.desc=WorldClock
+adaway.desc=Ad blocker
+jcprint.desc=Printer
+pdfview.desc=Cool Reader viewer
+poloffice.desc=Mobile office
+simtk.desc=SIM Application Toolkit
+cifsman.desc=Mount and use of network resources locally
+teeter.desc=Game
+wifi.desc=WiFi Fix
+plurk.desc=Micro-blogging service
+smartsync.desc=Smart Sync Disabler
+adoberead.desc=PDF Reader
+tunein.desc=Online Radio
+esfileman.desc=Easy File Manager
+removelang.title=Remove some languages
+removelang.desc=Remove unused languages
+imext9-1.desc=Bulgaria
+imext9-2.desc=Croatian
+imext9-3.desc=Czech
+imext9-4.desc=Danish
+imext9-5.desc=Dutch
+imext9-6.desc=Estonian
+imext9-7.desc=Finnish
+imext9-8.desc=French
+imext9-9.desc=German
+imext9-10.desc=Greek
+imext9-11.desc=Hungarian
+imext9-12.desc=Indonesia
+imext9-13.desc=Italian
+imext9-14.desc=Latvian
+imext9-15.desc=Lithuanian
+imext9-16.desc=Malaysia
+imext9-17.desc=Norwegian
+imext9-18.desc=Polish
+imext9-19.desc=Portuguese
+imext9-20.desc=Romanian
+imext9-21.desc=Russian
+imext9-22.desc=Serbian
+imext9-23.desc=Slovak
+imext9-24.desc=Slovenian
+imext9-25.desc=Spanish
+imext9-26.desc=Swedish
+imext9-27.desc=Turkish
+gps-1.desc=Asia
+gps-2.desc=Australia
+gps-3.desc=Europe
+gps-4.desc=North America
+gps-5.desc=Oceania
+gps-6.desc=South Africa
+gps-7.desc=South America

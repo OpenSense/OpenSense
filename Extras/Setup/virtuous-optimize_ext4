@@ -1,0 +1,27 @@
+#!/sbin/sh
+
+# ===========================================================================
+#  Virtuous ROM Tools (rmk)
+#
+#  $LastChangedDate: 2011-07-18 01:39:15 -0700 (Mon, 18 Jul 2011) $
+# ===========================================================================
+
+PATH=/sbin
+export PATH
+
+# Unmount all filesystems
+umount /data
+umount /cache
+umount /devlog
+
+# Convert from ext3 to ext4
+
+# /cache
+tune2fs -O extents,uninit_bg,dir_index /dev/block/mmcblk0p24
+e2fsck -p /dev/block/mmcblk0p24
+tune2fs -o journal_data_writeback /dev/block/mmcblk0p24
+
+# /devlog
+tune2fs -O extents,uninit_bg,dir_index /dev/block/mmcblk0p27
+e2fsck -p /dev/block/mmcblk0p27
+tune2fs -o journal_data_writeback /dev/block/mmcblk0p27

@@ -1,0 +1,32 @@
+#!/system/bin/sh
+
+	echo "192000 700000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "310500 725000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "384000 737500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "432000 750000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "486000 762500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "540000 775000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "594000 787500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "648000 800000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "702000 812500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "756000 825000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "810000 850000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "864000 862500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "918000 875000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "972000 900000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1026000 912500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1080000 937500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1134000 950000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1188000 975000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1242000 1000000" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1296000 1012500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1350000 1037500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1404000 1062500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1458000 1087500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1512000 1112500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1566000 1137500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1620000 1162500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1674000 1187500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1728000 1212500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1782000 1237500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
+	echo "1836000 1262500" > /sys/devices/system/cpu/cpufreq/vdd_table/vdd_levels
