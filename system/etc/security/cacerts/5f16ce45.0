@@ -1,0 +1,81 @@
+-----BEGIN CERTIFICATE-----
+MIIECzCCAvOgAwIBAgICAQAwDQYJKoZIhvcNAQELBQAwgacxCzAJBgNVBAYTAlVT
+MRMwEQYDVQQIEwpDYWxpZm9ybmlhMRwwGgYDVQQKExNTZXZlbiBOZXR3b3JrcyBJ
+bmMuMTkwNwYDVQQDEzBTRVZFTiBPcGVuIENoYW5uZWwgUHJpbWFyeSBDZXJ0aWZp
+Y2F0ZSBBdXRob3JpdHkxKjAoBgkqhkiG9w0BCQEWG3NldmVuLWNlcnQtYWdlbnRz
+QHNldmVuLmNvbTAeFw0wOTAzMTQxNTAwMDBaFw00MTA5MjYwMDQzMDdaMIGnMQsw
+CQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEcMBoGA1UEChMTU2V2ZW4g
+TmV0d29ya3MgSW5jLjE5MDcGA1UEAxMwU0VWRU4gT3BlbiBDaGFubmVsIFByaW1h
+cnkgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MSowKAYJKoZIhvcNAQkBFhtzZXZlbi1j
+ZXJ0LWFnZW50c0BzZXZlbi5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQDMJHntPID64t+pE57/Qc66b0+NJqxavuGdHjeYnEUbeTaITfpYO8G9SyKq
+uHgG5WadDiqJ8erwAADqGx+/LaT42iak/wAntGTHeTQlBazGar0nqLUnFa42LqXZ
+GZFagN8jvn0DHJTLrAZMNVnvjJFtyCtsJzu74joMg96uQGqsnapes4WQYsNxfEL8
+jLkrIm8adHk0R69eZlAS7VHV7OymwN5n3w/wWc8N2pA+KZ3WzsoyR5r8P4NjqSMI
+SMn3PtPloW/fnDttyejhmyfg6pluBCL6GgV5AIxcibvVY9sGZKE3Fzelz3zNStix
+W8ZS9zstsv+Tyo+zPzVg1p6QwjTdAgMBAAGjPzA9MB0GA1UdDgQWBBTVtjo2v6Db
+HHtWNCa381MQWFxZ1zAPBgNVHRMECDAGAQH/AgEBMAsGA1UdDwQEAwIBBjANBgkq
+hkiG9w0BAQsFAAOCAQEAFsmQ1o0MKU0qu2fsxCfeBAkNEPTr2c2Iwe40PTOtJ8qk
+CRIKouuXXi2fbwUE4cVpUohskokyFSVvP55LG3F7BxObvAdbdAfGlpjdwdptP00t
+lL+HN4Dg3ncw2lGqPP6snY9DnBChVeDTHexIR46PRZuTCHXrN0aAsVADkmLxdy5x
+P4+iXyEIxBh9SuSmALPVi+EH1yu7zPCqzskcmPaGLuu4l40aGi1wqQe64PGAjqvb
+YflzY8Lq56IbJQh6OFhAU4tjC5zgvjILDeWkmNaqaTsq/eFHrj59Cdzu84srA5T0
+r111DyR69NJV32qT5VtkFQDDyYGiLGCr/3QpEEJ+og==
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 256 (0x100)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, ST=California, O=Seven Networks Inc., CN=SEVEN Open Channel Primary Certificate Authority/emailAddress=seven-cert-agents@seven.com
+        Validity
+            Not Before: Mar 14 15:00:00 2009 GMT
+            Not After : Sep 26 00:43:07 2041 GMT
+        Subject: C=US, ST=California, O=Seven Networks Inc., CN=SEVEN Open Channel Primary Certificate Authority/emailAddress=seven-cert-agents@seven.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:cc:24:79:ed:3c:80:fa:e2:df:a9:13:9e:ff:41:
+                    ce:ba:6f:4f:8d:26:ac:5a:be:e1:9d:1e:37:98:9c:
+                    45:1b:79:36:88:4d:fa:58:3b:c1:bd:4b:22:aa:b8:
+                    78:06:e5:66:9d:0e:2a:89:f1:ea:f0:00:00:ea:1b:
+                    1f:bf:2d:a4:f8:da:26:a4:ff:00:27:b4:64:c7:79:
+                    34:25:05:ac:c6:6a:bd:27:a8:b5:27:15:ae:36:2e:
+                    a5:d9:19:91:5a:80:df:23:be:7d:03:1c:94:cb:ac:
+                    06:4c:35:59:ef:8c:91:6d:c8:2b:6c:27:3b:bb:e2:
+                    3a:0c:83:de:ae:40:6a:ac:9d:aa:5e:b3:85:90:62:
+                    c3:71:7c:42:fc:8c:b9:2b:22:6f:1a:74:79:34:47:
+                    af:5e:66:50:12:ed:51:d5:ec:ec:a6:c0:de:67:df:
+                    0f:f0:59:cf:0d:da:90:3e:29:9d:d6:ce:ca:32:47:
+                    9a:fc:3f:83:63:a9:23:08:48:c9:f7:3e:d3:e5:a1:
+                    6f:df:9c:3b:6d:c9:e8:e1:9b:27:e0:ea:99:6e:04:
+                    22:fa:1a:05:79:00:8c:5c:89:bb:d5:63:db:06:64:
+                    a1:37:17:37:a5:cf:7c:cd:4a:d8:b1:5b:c6:52:f7:
+                    3b:2d:b2:ff:93:ca:8f:b3:3f:35:60:d6:9e:90:c2:
+                    34:dd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                D5:B6:3A:36:BF:A0:DB:1C:7B:56:34:26:B7:F3:53:10:58:5C:59:D7
+            X509v3 Basic Constraints: 
+                CA:TRUE, pathlen:1
+            X509v3 Key Usage: 
+                Certificate Sign, CRL Sign
+    Signature Algorithm: sha256WithRSAEncryption
+        16:c9:90:d6:8d:0c:29:4d:2a:bb:67:ec:c4:27:de:04:09:0d:
+        10:f4:eb:d9:cd:88:c1:ee:34:3d:33:ad:27:ca:a4:09:12:0a:
+        a2:eb:97:5e:2d:9f:6f:05:04:e1:c5:69:52:88:6c:92:89:32:
+        15:25:6f:3f:9e:4b:1b:71:7b:07:13:9b:bc:07:5b:74:07:c6:
+        96:98:dd:c1:da:6d:3f:4d:2d:94:bf:87:37:80:e0:de:77:30:
+        da:51:aa:3c:fe:ac:9d:8f:43:9c:10:a1:55:e0:d3:1d:ec:48:
+        47:8e:8f:45:9b:93:08:75:eb:37:46:80:b1:50:03:92:62:f1:
+        77:2e:71:3f:8f:a2:5f:21:08:c4:18:7d:4a:e4:a6:00:b3:d5:
+        8b:e1:07:d7:2b:bb:cc:f0:aa:ce:c9:1c:98:f6:86:2e:eb:b8:
+        97:8d:1a:1a:2d:70:a9:07:ba:e0:f1:80:8e:ab:db:61:f9:73:
+        63:c2:ea:e7:a2:1b:25:08:7a:38:58:40:53:8b:63:0b:9c:e0:
+        be:32:0b:0d:e5:a4:98:d6:aa:69:3b:2a:fd:e1:47:ae:3e:7d:
+        09:dc:ee:f3:8b:2b:03:94:f4:af:5d:75:0f:24:7a:f4:d2:55:
+        df:6a:93:e5:5b:64:15:00:c3:c9:81:a2:2c:60:ab:ff:74:29:
+        10:42:7e:a2
+SHA1 Fingerprint=12:8B:FD:2A:37:E7:48:4A:EE:C9:B1:D3:07:39:12:3A:EF:3F:22:C4

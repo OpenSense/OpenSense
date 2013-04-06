@@ -1,0 +1,88 @@
+-----BEGIN CERTIFICATE-----
+MIID+TCCAuGgAwIBAgIQW1fXqEywr9nTb0ugMbTW4jANBgkqhkiG9w0BAQUFADB5
+MQswCQYDVQQGEwJVUzENMAsGA1UEChMEVklTQTEvMC0GA1UECxMmVmlzYSBJbnRl
+cm5hdGlvbmFsIFNlcnZpY2UgQXNzb2NpYXRpb24xKjAoBgNVBAMTIVZpc2EgSW5m
+b3JtYXRpb24gRGVsaXZlcnkgUm9vdCBDQTAeFw0wNTA2MjcxNzQyNDJaFw0yNTA2
+MjkxNzQyNDJaMHkxCzAJBgNVBAYTAlVTMQ0wCwYDVQQKEwRWSVNBMS8wLQYDVQQL
+EyZWaXNhIEludGVybmF0aW9uYWwgU2VydmljZSBBc3NvY2lhdGlvbjEqMCgGA1UE
+AxMhVmlzYSBJbmZvcm1hdGlvbiBEZWxpdmVyeSBSb290IENBMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyREA4R/QkkfpLx0cYjga/EhIPZpchH0MZsRZ
+FfP6C2ITtf/Wc+MtgD4yTK0yoiXvni3d+aCtEgK3GDvkdgYrgF76ROJFZwUQjQ9l
+x42gRT05DbXvWFoy7dTglCZ9z/Tt2Cnktv9oxKgmkeHY/CyfpCBg1S8xth2JlGMR
+0ug/GMO5zANuegZOv438p5Lt5So+du2Gl+RMFQqEPwqN5uJSqAe0VtmB4gWdQ8on
+Bj2ZAM2R73QW7UW0Igt2vA4JaSiNtaAG/Y/58VXWHGgbq7rDtNK1R30X0kJV0rGA
+ib3RSwB3LpG7bOjbIucV5mQgJoVjoA1e05w6g1x/KmNTmOGRVwIDAQABo30wezAP
+BgNVHRMBAf8EBTADAQH/MDkGA1UdIAQyMDAwLgYFZ4EDAgEwJTAVBggrBgEFBQcC
+ARYJMS4yLjMuNC41MAwGCCsGAQUFBwICMAAwDgYDVR0PAQH/BAQDAgEGMB0GA1Ud
+DgQWBBRPitp2/2d3I5qmgH1924h1hfeBejANBgkqhkiG9w0BAQUFAAOCAQEACUW1
+QdUHdDJydgDPmYt+telnG/Su+DPaf1cregzlN43bJaJosMP7NwjoJY/H2He4XLWb
+5rXEkl+xH1UyUwF7mtaUoxbGxEvt8hPZSTB4da2mzXgwKvXuHyzF5Qjy1hOB0/pS
+WaF9ARpVKJJ7TOJQdGKBsF2Ty4fSCLqZLgfxbqwMsd9sysXI3rDXjIhekqvbgeLz
+PqZr+pfgFhwCCLSMQWl5Ll3u7Qk9wR094DZ6jj6+JCVCRUS3HyabH4OlM0Vc2K+j
+INsF/64Or7GNtRf9HYEJvrPxHINxl3JVwhYj4ASeaO4KwhVbwtw94Tc/XrGcexDo
+c5lC3rAi4/UZqweYCw==
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            5b:57:d7:a8:4c:b0:af:d9:d3:6f:4b:a0:31:b4:d6:e2
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, O=VISA, OU=Visa International Service Association, CN=Visa Information Delivery Root CA
+        Validity
+            Not Before: Jun 27 17:42:42 2005 GMT
+            Not After : Jun 29 17:42:42 2025 GMT
+        Subject: C=US, O=VISA, OU=Visa International Service Association, CN=Visa Information Delivery Root CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:c9:11:00:e1:1f:d0:92:47:e9:2f:1d:1c:62:38:
+                    1a:fc:48:48:3d:9a:5c:84:7d:0c:66:c4:59:15:f3:
+                    fa:0b:62:13:b5:ff:d6:73:e3:2d:80:3e:32:4c:ad:
+                    32:a2:25:ef:9e:2d:dd:f9:a0:ad:12:02:b7:18:3b:
+                    e4:76:06:2b:80:5e:fa:44:e2:45:67:05:10:8d:0f:
+                    65:c7:8d:a0:45:3d:39:0d:b5:ef:58:5a:32:ed:d4:
+                    e0:94:26:7d:cf:f4:ed:d8:29:e4:b6:ff:68:c4:a8:
+                    26:91:e1:d8:fc:2c:9f:a4:20:60:d5:2f:31:b6:1d:
+                    89:94:63:11:d2:e8:3f:18:c3:b9:cc:03:6e:7a:06:
+                    4e:bf:8d:fc:a7:92:ed:e5:2a:3e:76:ed:86:97:e4:
+                    4c:15:0a:84:3f:0a:8d:e6:e2:52:a8:07:b4:56:d9:
+                    81:e2:05:9d:43:ca:27:06:3d:99:00:cd:91:ef:74:
+                    16:ed:45:b4:22:0b:76:bc:0e:09:69:28:8d:b5:a0:
+                    06:fd:8f:f9:f1:55:d6:1c:68:1b:ab:ba:c3:b4:d2:
+                    b5:47:7d:17:d2:42:55:d2:b1:80:89:bd:d1:4b:00:
+                    77:2e:91:bb:6c:e8:db:22:e7:15:e6:64:20:26:85:
+                    63:a0:0d:5e:d3:9c:3a:83:5c:7f:2a:63:53:98:e1:
+                    91:57
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Certificate Policies: 
+                Policy: 2.23.131.2.1
+                  CPS: 1.2.3.4.5
+                  User Notice:
+
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Subject Key Identifier: 
+                4F:8A:DA:76:FF:67:77:23:9A:A6:80:7D:7D:DB:88:75:85:F7:81:7A
+    Signature Algorithm: sha1WithRSAEncryption
+        09:45:b5:41:d5:07:74:32:72:76:00:cf:99:8b:7e:b5:e9:67:
+        1b:f4:ae:f8:33:da:7f:57:2b:7a:0c:e5:37:8d:db:25:a2:68:
+        b0:c3:fb:37:08:e8:25:8f:c7:d8:77:b8:5c:b5:9b:e6:b5:c4:
+        92:5f:b1:1f:55:32:53:01:7b:9a:d6:94:a3:16:c6:c4:4b:ed:
+        f2:13:d9:49:30:78:75:ad:a6:cd:78:30:2a:f5:ee:1f:2c:c5:
+        e5:08:f2:d6:13:81:d3:fa:52:59:a1:7d:01:1a:55:28:92:7b:
+        4c:e2:50:74:62:81:b0:5d:93:cb:87:d2:08:ba:99:2e:07:f1:
+        6e:ac:0c:b1:df:6c:ca:c5:c8:de:b0:d7:8c:88:5e:92:ab:db:
+        81:e2:f3:3e:a6:6b:fa:97:e0:16:1c:02:08:b4:8c:41:69:79:
+        2e:5d:ee:ed:09:3d:c1:1d:3d:e0:36:7a:8e:3e:be:24:25:42:
+        45:44:b7:1f:26:9b:1f:83:a5:33:45:5c:d8:af:a3:20:db:05:
+        ff:ae:0e:af:b1:8d:b5:17:fd:1d:81:09:be:b3:f1:1c:83:71:
+        97:72:55:c2:16:23:e0:04:9e:68:ee:0a:c2:15:5b:c2:dc:3d:
+        e1:37:3f:5e:b1:9c:7b:10:e8:73:99:42:de:b0:22:e3:f5:19:
+        ab:07:98:0b
+SHA1 Fingerprint=5A:4D:0E:8B:5F:DC:FD:F6:4E:72:99:A3:6C:06:0D:B2:22:CA:78:E4
+

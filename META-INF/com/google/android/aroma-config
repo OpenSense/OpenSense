@@ -6,10 +6,10 @@
 #
 theme("sense");
 ini_set("rom_name",             "OpenSense");
-ini_set("rom_version",          "05.04.2013");
+ini_set("rom_version",          "06.04.2013");
 ini_set("rom_author",           "Everyone");
 ini_set("rom_device",           "HTC Sensation + XE/4G");
-ini_set("rom_date",	         	"05.04.2013");
+ini_set("rom_date",	         	"06.04.2013");
 anisplash(
 	4,
 	"splash/a1", 500,

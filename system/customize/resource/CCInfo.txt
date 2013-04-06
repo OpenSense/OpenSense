@@ -1,0 +1,5 @@
+﻿Project: PYRAMID_JB_45_S
+SKU: HTC_WWE ROM
+ROM Build ID: 468844
+Build ID: 468845; SKU: HTC_WWE ROM default; CID: default; MNS: default
+Datetime: 2012/12/27 13:04:17

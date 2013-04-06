@@ -1,0 +1,73 @@
+-----BEGIN CERTIFICATE-----
+MIIC4TCCAkqgAwIBAgIEN9gbEjANBgkqhkiG9w0BAQUFADAuMQswCQYDVQQGEwJV
+UzEPMA0GA1UEChMGU3ByaW50MQ4wDAYDVQQLEwVYQ0EwMTAeFw05OTA5MDkyMDA5
+NDZaFw0xOTA5MDkyMDM5NDZaMC4xCzAJBgNVBAYTAlVTMQ8wDQYDVQQKEwZTcHJp
+bnQxDjAMBgNVBAsTBVhDQTAxMIGdMA0GCSqGSIb3DQEBAQUAA4GLADCBhwKBgQDG
+XIDRtF6Ksed9qqeS6/4ihOdPwG6dL2KIwg4/fG9b/g2Ba6GF/cwqm1UTlDlk1aTl
+UoMe/GZPNBtUkcHlH+fcny3JA0dw55K6j+51dOKAe6cdvssFfQ+v2B5qEE4jW2Ul
+QnbogUHEGtIBxzXbM02C+mb4gcHlaZq+lPh+ZSzY/QIBA6OCAQwwggEIMBEGCWCG
+SAGG+EIBAQQEAwIABzBQBgNVHR8ESTBHMEWgQ6BBpD8wPTELMAkGA1UEBhMCVVMx
+DzANBgNVBAoTBlNwcmludDEOMAwGA1UECxMFWENBMDExDTALBgNVBAMTBENSTDEw
+KwYDVR0QBCQwIoAPMTk5OTA5MDkyMDA5NDZagQ8yMDE5MDkwOTIwMDk0NlowCwYD
+VR0PBAQDAgEGMB8GA1UdIwQYMBaAFADtdv+QQfYHOO7wBqP7fPW2CeqqMB0GA1Ud
+DgQWBBQA7Xb/kEH2Bzju8Aaj+3z1tgnqqjAMBgNVHRMEBTADAQH/MBkGCSqGSIb2
+fQdBAAQMMAobBFY0LjADAgSQMA0GCSqGSIb3DQEBBQUAA4GBAItkb1392hu+jjRO
+8lP6MbQvoI3VxY1C3o1a5akh026F3dXTG+95Syp/ElVCf8Bzp6fLrj9YP6YQDw7Y
+i/zZeuPQJBddFVeZCUn7Q9IR1H8fB+2GB5ui0RDoBpH+rjBf3bAM/e2hP/OWRTtH
+N4rcRD9VZ4jf7Rv8RQQVFJ7yIzLQ
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 936909586 (0x37d81b12)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, O=Sprint, OU=XCA01
+        Validity
+            Not Before: Sep  9 20:09:46 1999 GMT
+            Not After : Sep  9 20:39:46 2019 GMT
+        Subject: C=US, O=Sprint, OU=XCA01
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:c6:5c:80:d1:b4:5e:8a:b1:e7:7d:aa:a7:92:eb:
+                    fe:22:84:e7:4f:c0:6e:9d:2f:62:88:c2:0e:3f:7c:
+                    6f:5b:fe:0d:81:6b:a1:85:fd:cc:2a:9b:55:13:94:
+                    39:64:d5:a4:e5:52:83:1e:fc:66:4f:34:1b:54:91:
+                    c1:e5:1f:e7:dc:9f:2d:c9:03:47:70:e7:92:ba:8f:
+                    ee:75:74:e2:80:7b:a7:1d:be:cb:05:7d:0f:af:d8:
+                    1e:6a:10:4e:23:5b:65:25:42:76:e8:81:41:c4:1a:
+                    d2:01:c7:35:db:33:4d:82:fa:66:f8:81:c1:e5:69:
+                    9a:be:94:f8:7e:65:2c:d8:fd
+                Exponent: 3 (0x3)
+        X509v3 extensions:
+            Netscape Cert Type: 
+                SSL CA, S/MIME CA, Object Signing CA
+            X509v3 CRL Distribution Points: 
+                DirName:/C=US/O=Sprint/OU=XCA01/CN=CRL1
+
+            X509v3 Private Key Usage Period: 
+                Not Before: Sep  9 20:09:46 1999 GMT, Not After: Sep  9 20:09:46 2019 GMT
+            X509v3 Key Usage: 
+                Certificate Sign, CRL Sign
+            X509v3 Authority Key Identifier: 
+                keyid:00:ED:76:FF:90:41:F6:07:38:EE:F0:06:A3:FB:7C:F5:B6:09:EA:AA
+
+            X509v3 Subject Key Identifier: 
+                00:ED:76:FF:90:41:F6:07:38:EE:F0:06:A3:FB:7C:F5:B6:09:EA:AA
+            X509v3 Basic Constraints: 
+                CA:TRUE
+            1.2.840.113533.7.65.0: 
+                0
+..V4.0....
+    Signature Algorithm: sha1WithRSAEncryption
+        8b:64:6f:5d:fd:da:1b:be:8e:34:4e:f2:53:fa:31:b4:2f:a0:
+        8d:d5:c5:8d:42:de:8d:5a:e5:a9:21:d3:6e:85:dd:d5:d3:1b:
+        ef:79:4b:2a:7f:12:55:42:7f:c0:73:a7:a7:cb:ae:3f:58:3f:
+        a6:10:0f:0e:d8:8b:fc:d9:7a:e3:d0:24:17:5d:15:57:99:09:
+        49:fb:43:d2:11:d4:7f:1f:07:ed:86:07:9b:a2:d1:10:e8:06:
+        91:fe:ae:30:5f:dd:b0:0c:fd:ed:a1:3f:f3:96:45:3b:47:37:
+        8a:dc:44:3f:55:67:88:df:ed:1b:fc:45:04:15:14:9e:f2:23:
+        32:d0
+SHA1 Fingerprint=11:90:23:2C:5E:31:9A:2E:09:5C:91:67:82:5C:4F:95:7B:C6:37:D2
+

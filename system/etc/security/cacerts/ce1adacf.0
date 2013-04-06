@@ -1,0 +1,82 @@
+-----BEGIN CERTIFICATE-----
+MIIDgzCCAmugAwIBAgIQW/XGbbIU0uEv2i31Nu52WTANBgkqhkiG9w0BAQUFADBR
+MQswCQYDVQQGEwJVUzEfMB0GA1UEChMWQ2luZ3VsYXIgV2lyZWxlc3MsIExMQzEh
+MB8GA1UEAxMYQ2luZ3VsYXIgVHJ1c3RlZCBSb290IENBMB4XDTAzMTExMzAwMDAw
+MFoXDTIzMTExMjIzNTk1OVowUTELMAkGA1UEBhMCVVMxHzAdBgNVBAoTFkNpbmd1
+bGFyIFdpcmVsZXNzLCBMTEMxITAfBgNVBAMTGENpbmd1bGFyIFRydXN0ZWQgUm9v
+dCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOqqZrGgp3MqGAjV
+XW73STM/hSJIIVN+xA+0XxdpAOM9SMW7H6q1ta7wYFBLcYKxiscsc0B710Rf5hLd
+NodLCRx0e8nORahCyB+tfGHyiqshPaxSz/ACRG7ZC9iUwWDVZ8YKHiuQ+b9Q2ew3
+t46T4oUhTSnODxjssyvz4N+gPXcPzMoGK5t120YlyQGJhUlWkOeOiDgWUC4pyh9C
+3RqbG6O9E1+BoCgiFhWfkein1UIXLBTs+iW10xDx0nJC6btcLBGYM3gEXYx2Rj0k
+vg+obkyEMyXsliEUqQ8vk74XMIiqrSzHJQJdSmPQ5w/Dv16+SQDTNYN1byqm0VHf
+qbTb83UCAwEAAaNXMFUwEgYDVR0TAQH/BAgwBgEB/wIBATATBgNVHSUEDDAKBggr
+BgEFBQcDAzALBgNVHQ8EBAMCAQYwHQYDVR0OBBYEFH0uYF1eYavptTbt34K4ZzV7
+KyysMA0GCSqGSIb3DQEBBQUAA4IBAQDmY96RoxSNYBP6PvtnrX2JayUO3h7T5DVN
+UgBl8OW7jvLsDLCXgjy6Mg8+9f9W9ziBUoHu7l3qmvQvzI3btlciH9vlxEie42yY
+vkHCARQDrujhHCGq7GCmVuAE9NPS/YZ6MCb8h2xIcLEwucqQcW9gxhNE7AThiVfD
+6yalr2R/T8+Rp/FW78Jo6BV2C7s/AHLloNxUFs6iWoBMz4TCuKGJizYGueDSHCmt
+0rEbzqiaiVFFCY+61aPRFCPweaacGjnA3WoYte8hmtGi6ENnZTFPMSuahl2x0Kx8
+ouJuOIs8aVyYDQb+Hl8uNX0m+WAN5U7xDOkeonx13YGodQhnYocR
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            5b:f5:c6:6d:b2:14:d2:e1:2f:da:2d:f5:36:ee:76:59
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, O=Cingular Wireless, LLC, CN=Cingular Trusted Root CA
+        Validity
+            Not Before: Nov 13 00:00:00 2003 GMT
+            Not After : Nov 12 23:59:59 2023 GMT
+        Subject: C=US, O=Cingular Wireless, LLC, CN=Cingular Trusted Root CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:ea:aa:66:b1:a0:a7:73:2a:18:08:d5:5d:6e:f7:
+                    49:33:3f:85:22:48:21:53:7e:c4:0f:b4:5f:17:69:
+                    00:e3:3d:48:c5:bb:1f:aa:b5:b5:ae:f0:60:50:4b:
+                    71:82:b1:8a:c7:2c:73:40:7b:d7:44:5f:e6:12:dd:
+                    36:87:4b:09:1c:74:7b:c9:ce:45:a8:42:c8:1f:ad:
+                    7c:61:f2:8a:ab:21:3d:ac:52:cf:f0:02:44:6e:d9:
+                    0b:d8:94:c1:60:d5:67:c6:0a:1e:2b:90:f9:bf:50:
+                    d9:ec:37:b7:8e:93:e2:85:21:4d:29:ce:0f:18:ec:
+                    b3:2b:f3:e0:df:a0:3d:77:0f:cc:ca:06:2b:9b:75:
+                    db:46:25:c9:01:89:85:49:56:90:e7:8e:88:38:16:
+                    50:2e:29:ca:1f:42:dd:1a:9b:1b:a3:bd:13:5f:81:
+                    a0:28:22:16:15:9f:91:e8:a7:d5:42:17:2c:14:ec:
+                    fa:25:b5:d3:10:f1:d2:72:42:e9:bb:5c:2c:11:98:
+                    33:78:04:5d:8c:76:46:3d:24:be:0f:a8:6e:4c:84:
+                    33:25:ec:96:21:14:a9:0f:2f:93:be:17:30:88:aa:
+                    ad:2c:c7:25:02:5d:4a:63:d0:e7:0f:c3:bf:5e:be:
+                    49:00:d3:35:83:75:6f:2a:a6:d1:51:df:a9:b4:db:
+                    f3:75
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:1
+            X509v3 Extended Key Usage: 
+                Code Signing
+            X509v3 Key Usage: 
+                Certificate Sign, CRL Sign
+            X509v3 Subject Key Identifier: 
+                7D:2E:60:5D:5E:61:AB:E9:B5:36:ED:DF:82:B8:67:35:7B:2B:2C:AC
+    Signature Algorithm: sha1WithRSAEncryption
+        e6:63:de:91:a3:14:8d:60:13:fa:3e:fb:67:ad:7d:89:6b:25:
+        0e:de:1e:d3:e4:35:4d:52:00:65:f0:e5:bb:8e:f2:ec:0c:b0:
+        97:82:3c:ba:32:0f:3e:f5:ff:56:f7:38:81:52:81:ee:ee:5d:
+        ea:9a:f4:2f:cc:8d:db:b6:57:22:1f:db:e5:c4:48:9e:e3:6c:
+        98:be:41:c2:01:14:03:ae:e8:e1:1c:21:aa:ec:60:a6:56:e0:
+        04:f4:d3:d2:fd:86:7a:30:26:fc:87:6c:48:70:b1:30:b9:ca:
+        90:71:6f:60:c6:13:44:ec:04:e1:89:57:c3:eb:26:a5:af:64:
+        7f:4f:cf:91:a7:f1:56:ef:c2:68:e8:15:76:0b:bb:3f:00:72:
+        e5:a0:dc:54:16:ce:a2:5a:80:4c:cf:84:c2:b8:a1:89:8b:36:
+        06:b9:e0:d2:1c:29:ad:d2:b1:1b:ce:a8:9a:89:51:45:09:8f:
+        ba:d5:a3:d1:14:23:f0:79:a6:9c:1a:39:c0:dd:6a:18:b5:ef:
+        21:9a:d1:a2:e8:43:67:65:31:4f:31:2b:9a:86:5d:b1:d0:ac:
+        7c:a2:e2:6e:38:8b:3c:69:5c:98:0d:06:fe:1e:5f:2e:35:7d:
+        26:f9:60:0d:e5:4e:f1:0c:e9:1e:a2:7c:75:dd:81:a8:75:08:
+        67:62:87:11
+SHA1 Fingerprint=DA:A7:97:8F:77:C0:C0:E5:80:E1:97:2F:61:D9:93:98:9A:C2:A3:13
+
