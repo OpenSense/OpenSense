@@ -12,7 +12,7 @@ function precmd {
 
 	(( e )) && print -n "$e|"
 }
-ROM="DarkSense"
+ROM="OpenSense"
 PS1='$(precmd)$ROM@${PWD:-?}'"$PS1 "
 export HOME HOSTNAME MKSH PS1 ROM SHELL TERM USER
 alias l='ls --color=never'
