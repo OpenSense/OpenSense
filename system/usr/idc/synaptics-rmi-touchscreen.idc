@@ -35,7 +35,7 @@ touch.touchSize.calibration = pressure
 # sum of all contact area so we note this fact in the calibration.
 touch.toolSize.calibration = linear
 touch.toolSize.linearScale = 10
-touch.toolSize.linearBias = 160
+touch.toolSize.linearBias = 170
 touch.toolSize.isSummed = 1
 
 # Pressure
@@ -51,7 +51,7 @@ touch.toolSize.isSummed = 1
 # will be above 1.0.  We don't expect these values to be accurate.
 touch.pressure.calibration = amplitude
 touch.pressure.source = default
-touch.pressure.scale = 0.01
+touch.pressure.scale = 0.0001
 
 # Size
 touch.size.calibration = normalized
