@@ -129,7 +129,7 @@ ro.ril.hsxpa=3
 ro.telephony.default_network=0
 
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=180
+wifi.supplicant_scan_interval=120
 wifi.softap.interface=wlan0
 wifi.softapconcurrent.interface=wl0.1
 
@@ -148,10 +148,10 @@ persist.audio.fluence.mode=endfire
 persist.audio.vr.enable=false
 persist.audio.handset.mic=analog
 persist.audio.SupportHTCHWAEC=1
-htc.audio.lpa.a2dp=0
-htc.audio.global.state=0
+htc.audio.lpa.a2dp=1
+htc.audio.global.state=1
 htc.audio.global.profile=0
-htc.audio.q6.topology=0
+htc.audio.q6.topology=1
 
 # For HSDPA low throughput
 ro.ril.disable.power.collapse=1
@@ -179,13 +179,8 @@ persist.htc.audio.pcm.channels=2
 htc.audio.swalt.enable=1
 htc.audio.swalt.mingain=14512
 
-# System props for global effect
-htc.audio.global.state=0
-htc.audio.global.profile=0
-htc.audio.q6.topology=0
-
 # Display/HDMI
-ro.hdmi.enable=true
+ro.hdmi.enable=false
 
 # Release Bluetooth HW/SW information
 ro.bt.chipset=Broadcom BCM4329-B1
@@ -206,18 +201,12 @@ service.brcm.bt.local_name=
 
 # Display/SurfaceFlinger
 ro.sf.lcd_density=240
-debug.fb.rgb565=0
-debug.sf.hw=1
-debug.egl.hw=1
-debug.composition.type=c2d
+debug.composition.type=gpu
 debug.enabletr=true
 ro.hwui.renderer.disable_opaque=true
 debug.mdpcomp.maxlayer=3
 # rotate area = 736 * 1280 * 2
 debug.mdpcomp.limit=1884160
-#debug.qctwa.preservebuf=1
-debug.sf.no_hw_vsync=1
-windowsmgr.max_events_per_sec=250
 
 # For quick boot mode
 persist.sys.shutdown.mode = hibernate
@@ -226,10 +215,10 @@ persist.sys.shutdown.mode = hibernate
 ro.product.display_resolution = 4.3 inch qHD resolution
 
 # Camera H/W information
-ro.product.processor=1.5GHz Qualcomm MSM8660 Dual-Core
+ro.product.processor=1.5GHz Qualcomm Snapdragon S3
 ro.product.ram=768MB
 ro.product.display_resolution=4.3 inch QHD resolution
-ro.product.main_camera=8M
+ro.product.main_camera=8Mp
 ro.product.front_camera=VGA
 ro.product.bluetooth=3.0
 ro.product.wifi=802.11 b/g/n
@@ -270,18 +259,22 @@ htc.audio.fluence.enable=1
 lpa.decode=true
 lpa.use-stagefright=true
 htc.audio.beats.state=1
-htc.audio.q6.topology=0
+htc.audio.q6.topology=1
 tunnel.decode=true
 ro.setupwizard.enterprise_mode=1
 ro.service.dpsvr.enabled=true
 ro.vendor.extension_library=/system/lib/libqc-opt.so
 net.bt.name=OpenSense
 qemu.hw.mainkeys=1
+
+# Dalvik Settings
 dalvik.vm.heapsize=128m
-dalvik.vm.heapgrowthlimit=64m
+dalvik.vm.heapgrowthlimit=48m
+dalvik.vm.heapstartsize=5m
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
 dalvik.vm.verify-bytecode=false 
 dalvik.vm.dexopt-flags=v=n,o=v,m=y
+dalvik.vm.execution-mode=int:jit
 
 # Additional build.prop tweaks
 
@@ -297,8 +290,36 @@ profiler.force_disable_ulog=1
 ro.kernel.android.checkjni=0
 dalvik.vm.checkjni=0
 
-# For ext4 file system
-ro.ext4fs=1
+# GPU Settings
+debug.fb.rgb565=0
+debug.sf.hw=1
+video.accelerate.hw=1
+debug.performance.tuning=1
+persist.sys.composition.type=gpu
+persist.sampling_profiler=0
+debug.egl.hw=1
+debug.egl.profiler=1
 
-# Turn on Just In Time in dalvik virtual machine
-dalvik.vm.execution-mode=int:jit
+# Qualcomm dsply settings
+debug.qctwa.statusbar=1
+debug.qctwa.preservebuf=1
+com.qc.hardware=true
+dev.pm.dyn_samplingrate=1
+persist.sys.use_16bpp_alpha=1
+ro.sf.compbypass.enable=1
+
+# Touch-UI
+windowsmgr.max_events_per_sec=300
+ro.max.fling_velocity=10000
+ro.min.fling_velocity=7000
+view.minimum_fling_velocity=25
+view.scroll_friction=0.008
+view.fading_edge_lenght=8
+view.touch_slop=2
+persist.sys.purgeable_assets=1
+persist.sys.use_dithering=0
+
+# Misc
+ro.telephony.call_ring.delay=1
+pm.sleep_mode=1
+persist.service.mount.playsnd=1
