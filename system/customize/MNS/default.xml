@@ -844,9 +844,9 @@
           <item name="MMS_Auto_Retrieve">true</item>
           <item name="MMS_Roaming_Auto_Retrieve">false</item>
           <item name="MMS_Priority">Normal</item>
-          <item name="MMS_Msg_Size1">1M</item>
-          <item name="MMS_Msg_Size2">4M</item>
-          <item name="MMS_Msg_Size3">9M</item>
+          <item name="MMS_Msg_Size1">300K</item>
+          <item name="MMS_Msg_Size2">600K</item>
+          <item name="MMS_Msg_Size3">1000K</item>
           <item name="MMS_Msg_Size_Choose">300K</item>
           <item name="MMS_Received_Notify">true</item>
           <item name="MMS_Play_Received_Notify">true</item>
@@ -856,9 +856,9 @@
           <item name="MMS_Play_Notify">true</item>
           <item name="MMS_Notify_Sound">Default Ringtone</item>
           <item name="MMS_Viberation">true</item>
-          <item name="MMS_Max_Recipient_Number">10</item>
+          <item name="MMS_Max_Recipient_Number">250</item>
           <item name="SMS_Max_Recipient_Number">250</item>
-          <item name="SMS_Max_Concatenated_Number">10</item>
+          <item name="SMS_Max_Concatenated_Number">20</item>
           <item name="MMS_Max_Slide_Number">10</item>
           <item name="MMS_Default_Slide_Duration">5000</item>
           <item name="RECIPT_Show_Sent_Msg_History">true</item>
@@ -869,7 +869,7 @@
           <item name="STORAGE_Text_Msg_Limit">200</item>
           <item name="STORAGE_MMS_Msg_Limit">20</item>
           <item name="SMS_Wap_Push_Support">true</item>
-          <item name="SMS_Empty_Draft_Support">false</item>
+          <item name="SMS_Empty_Draft_Support">true</item>
           <item name="SMS_To_Email_Support">false</item>
           <item name="SMS_Class_Zero_Save_Support">true</item>
           <item name="SMS_Concatenated_Email_SMS">false</item>
@@ -934,8 +934,8 @@
         </set>
         <set name="plenty">
           <!--%%File%%-->
-          <item name="title">Lonely Planet</item>
-          <item name="url">http://www.lonelyplanet.com</item>
+          <item name="title">XDA-Developers</item>
+          <item name="url">http://www.xda-developers.com</item>
         </set>
       </function>
       <function name="homepage">
@@ -1240,7 +1240,7 @@
       </function>
       <function name="LASTKMSG">
         <set name="single">
-          <item name="enable">1</item>
+          <item name="enable">0</item>
         </set>
       </function>
       <function name="extra">
