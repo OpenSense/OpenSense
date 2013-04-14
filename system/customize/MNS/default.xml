@@ -844,9 +844,9 @@
           <item name="MMS_Auto_Retrieve">true</item>
           <item name="MMS_Roaming_Auto_Retrieve">false</item>
           <item name="MMS_Priority">Normal</item>
-          <item name="MMS_Msg_Size1">300K</item>
-          <item name="MMS_Msg_Size2">600K</item>
-          <item name="MMS_Msg_Size3">1000K</item>
+          <item name="MMS_Msg_Size1">1M</item>
+          <item name="MMS_Msg_Size2">4M</item>
+          <item name="MMS_Msg_Size3">9M</item>
           <item name="MMS_Msg_Size_Choose">300K</item>
           <item name="MMS_Received_Notify">true</item>
           <item name="MMS_Play_Received_Notify">true</item>
